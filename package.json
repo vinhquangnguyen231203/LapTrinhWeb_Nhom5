@@ -1,0 +1,28 @@
+{
+  "name": "ltw-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --inspect src/index.js",
+    "watch_login": "node-sass --watch src/resources/scss/login.scss -o src/public/css/",
+    "watch_aboutUs": "node-sass --watch src/resources/scss/aboutUs.scss -o src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wan",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.2",
+    "sass": "^1.69.5"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.0.2"
+  }
+}

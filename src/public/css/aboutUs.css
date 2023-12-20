@@ -1,0 +1,87 @@
+:root{
+    font-size: 16px;  
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    color: wheat;
+    background: url('background.jpg') ;
+    background-size: cover;
+    background-position: fixed;
+    background:  center center cover;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(13, 38, 48);
+    padding: 0;
+    margin: 0;
+}
+
+.nav_item {
+    width: 100%;
+}
+
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    
+  }
+
+.icon{
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    align-items: center;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+.icon-1{
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    align-items: center;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+@media (max-width: 720p)  {
+    .nav_item{
+        position: relative; 
+        top: 0;
+        width: 100%; 
+    }
+}
+
+main {
+    background-color: rgb(18, 77, 77);
+    margin-left: 5rem;
+    padding: 1rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+title{
+    background-color: blanchedalmond;
+}
+a:hover{
+    cursor: pointer;
+}
